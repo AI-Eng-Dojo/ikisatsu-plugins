@@ -1,0 +1,13 @@
+{
+  "name": "ikisatsu-codex",
+  "version": "0.6.0",
+  "description": "ikisatsu(経緯): Codex のセッションの会話(発言とツール名だけ)をクラウドで要約し、次のセッション開始時にチームの作業状況(短期の記憶)として注入するフックと、ログインのスキル",
+  "author": {
+    "name": "ikisatsu"
+  },
+  "homepage": "https://ikisatsu.dev",
+  "repository": "https://github.com/AI-Eng-Dojo/ikisatsu-plugins",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./.mcp.json"
+}

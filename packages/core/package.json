@@ -1,0 +1,11 @@
+{
+  "name": "@ikisatsu/core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ツール非依存の型と純関数(ランタイム非依存)。dependencies は空にする",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {}
+}

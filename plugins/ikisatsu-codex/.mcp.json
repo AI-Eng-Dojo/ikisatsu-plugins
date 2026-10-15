@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ikisatsu": {
+      "command": "node",
+      "args": ["./bin/mcp.mjs"],
+      "cwd": "."
+    }
+  }
+}

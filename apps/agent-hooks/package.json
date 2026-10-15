@@ -1,0 +1,16 @@
+{
+  "name": "@ikisatsu/agent-hooks",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "手元(メンバーのマシン)で動くフックとログイン。会話を発言だけに削ってクラウドへ送り、セッション開始時に短期の記憶を注入する",
+  "dependencies": {
+    "@ikisatsu/core": "*"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.1"
+  },
+  "scripts": {
+    "build": "node scripts/build-plugins.mjs"
+  }
+}

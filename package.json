@@ -1,0 +1,28 @@
+{
+  "name": "ikisatsu-plugins",
+  "private": true,
+  "type": "module",
+  "description": "ikisatsu(経緯)の配布用ソース。プラグイン 2 つと hooks / core。サーバは含まない",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "build": "npm run build --workspace=apps/agent-hooks"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.1",
+    "typescript": "5.9.3",
+    "vitest": "4.1.11"
+  },
+  "ikisatsuPluginVersions": {
+    "ikisatsu": "0.6.0",
+    "ikisatsu-codex": "0.6.0"
+  }
+}
