@@ -37,7 +37,7 @@
 
 ```
 codex plugin marketplace add AI-Eng-Dojo/ikisatsu-plugins
-codex plugin add ikisatsu-codex
+codex plugin add ikisatsu-codex@ikisatsu-plugins
 ```
 
 リポジトリを trusted にし、`/hooks` で ikisatsu のフックを承認してから、「**ikisatsu にログインして**」と頼んでください。

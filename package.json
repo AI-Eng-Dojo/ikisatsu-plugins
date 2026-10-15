@@ -22,7 +22,7 @@
     "vitest": "4.1.11"
   },
   "ikisatsuPluginVersions": {
-    "ikisatsu": "0.6.0",
-    "ikisatsu-codex": "0.6.0"
+    "ikisatsu": "0.6.1",
+    "ikisatsu-codex": "0.6.1"
   }
 }

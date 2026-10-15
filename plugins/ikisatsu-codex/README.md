@@ -29,7 +29,7 @@ Codex の会話ログは公式に安定した仕様ではないので、知っ�
    codex plugin marketplace add AI-Eng-Dojo/ikisatsu-plugins
    ```
 
-2. プラグインを入れる(`codex plugin add ikisatsu-codex`、または Codex 内の `/plugins` から `ikisatsu-codex` を有効化)
+2. プラグインを入れる(`codex plugin add ikisatsu-codex@ikisatsu-plugins`、または Codex 内の `/plugins` から `ikisatsu-codex` を有効化)
 
 3. 使いたいリポジトリを Codex の **trusted プロジェクト**にする(未信頼のプロジェクトではフックは動かない)
 

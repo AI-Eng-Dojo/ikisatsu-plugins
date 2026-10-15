@@ -1,6 +1,6 @@
 {
   "name": "ikisatsu",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "ikisatsu(経緯): Claude Code のセッションの会話(発言とツール名だけ)をクラウドで要約し、次のセッション開始時にチームの作業状況として注入するフック",
   "author": {
     "name": "ikisatsu"
